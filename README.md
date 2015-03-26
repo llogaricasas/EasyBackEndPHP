@@ -1,7 +1,6 @@
-# ItemGL
+# EasyBackEndPHP
 
-<h2 style="color: red;">Please note! This plugin is still under development</h2>
-<p>The ItemGL plugin implements an application that simply lets the user customize an item using WebGL and ThreeJs.</p>
+<p>Customized Object Oriented PHP library built for Back-End development purposes. SQL Queries, XSLT transformations, FTP Connections and Image Size modifications can be performed using this Library.</p>
 
 
 <h2>Documentation</h2>
@@ -35,4 +34,4 @@
 <p>ItemGL is maintained by <a href="https://github.com/llogaricasas" target="_blank">Llogari Casas</a></p>
 
 <h2>Thank you!</h2>
-<p>I really appreciate all kind of feedback and contributions. Thanks for using and supporting ItemGL!</p>
+<p>I really appreciate all kind of feedback and contributions. Thanks for using and supporting EasyBackEndPHP!</p>
