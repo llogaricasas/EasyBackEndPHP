@@ -8,7 +8,7 @@
 <pre>  
   require_once 'EasyBackEndPHP.php';
   $query = new Query();
-  $query->InvokeNeededMethod();
+  $query->InvokeMethod();
 </pre>
 <h2>The ItemGL Creator</h2>
 <p>ItemGL is maintained by <a href="https://github.com/llogaricasas" target="_blank">Llogari Casas</a></p>
