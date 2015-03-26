@@ -9,9 +9,10 @@
   require_once 'EasyBackEndPHP.php';
   $query = new Query();
   $query->InvokeMethod();
+  
 </pre>
-<h2>The ItemGL Creator</h2>
-<p>ItemGL is maintained by <a href="https://github.com/llogaricasas" target="_blank">Llogari Casas</a></p>
+<h2>The EasyBackEndPHP Creator</h2>
+<p>EasyBackEndPHP is maintained by <a href="https://github.com/llogaricasas" target="_blank">Llogari Casas</a></p>
 
 <h2>Thank you!</h2>
 <p>I really appreciate all kind of feedback and contributions. Thanks for using and supporting EasyBackEndPHP!</p>
