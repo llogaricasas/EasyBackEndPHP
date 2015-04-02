@@ -309,25 +309,25 @@ class ImageEditor{
 		$this->Resize($width,$height);
 	} 
 	public function Crop($height, $width)  {
-        $centreX = round($this->GetWidth()/2);
-        $centreY = round($this->GetHeight()/2);
-        $x1 = $centreX - $width/2;
-        $y1 = $centreY - $height/2; 
-        $x2 = $centreX + $width/2;
-        $y2 = $centreY + $height/2;
-        if (!is_resource($this->image)) {
-            throw new RuntimeException('No image set');
-        }
-        if (is_array($x1) && 4 == count($x1)) {
-            list($x1, $y1, $x2, $y2) = $x1;
-        }
-        $x1 = max($x1, 0);
-        $y1 = max($y1, 0);   
-        $x2 = min($x2, $this->GetWidth());
-        $y2 = min($y2, $this->GetWidth());
-        $temp = imagecreatetruecolor($width, $height);
-        imagecopy($temp, $this->image, 0, 0, $x1, $y1, $width, $height);
-        $this->image = $temp;
+	        $centreX = round($this->GetWidth()/2);
+	        $centreY = round($this->GetHeight()/2);
+	        $x1 = $centreX - $width/2;
+	        $y1 = $centreY - $height/2; 
+	        $x2 = $centreX + $width/2;
+	        $y2 = $centreY + $height/2;
+	        if (!is_resource($this->image)) {
+	            throw new RuntimeException('No image set');
+	        }
+	        if (is_array($x1) && 4 == count($x1)) {
+	            list($x1, $y1, $x2, $y2) = $x1;
+	        }
+	        $x1 = max($x1, 0);
+	        $y1 = max($y1, 0);   
+	        $x2 = min($x2, $this->GetWidth());
+	        $y2 = min($y2, $this->GetWidth());
+	        $temp = imagecreatetruecolor($width, $height);
+	        imagecopy($temp, $this->image, 0, 0, $x1, $y1, $width, $height);
+	        $this->image = $temp;
 	}   
 }
 class FTPConnection{
@@ -389,7 +389,7 @@ class Session extends Query{
 }
 class StringGenerator{
 	public function RandomString($length){
-    	$characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    		$characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 		$randomString = '';
 		for ($i = 0; $i < $length; $i++){
         	$randomString.= $characters[rand(0, strlen($characters) - 1)];
