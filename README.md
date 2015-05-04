@@ -10,8 +10,8 @@
   
   $library = new EasyBackEndPHP();
   
-  $MySQL = $library->MySQL($host, $database, $user, $password);
-  $FTP = $library->FTP($host, $user, $password);
+  $MySQL       = $library->MySQL($host, $database, $user, $password);
+  $FTP         = $library->FTP($host, $user, $password);
   $ImageEditor = $library->ImageEditor($filename);
   
 </pre>
