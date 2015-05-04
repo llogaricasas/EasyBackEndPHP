@@ -10,9 +10,11 @@
   
   $library = new EasyBackEndPHP();
   
-  $MySQL       = $library->MySQL($host, $database, $user, $password);
-  $FTP         = $library->FTP($host, $user, $password);
-  $ImageEditor = $library->ImageEditor($filename);
+  $MySQL           = $library->MySQL($host, $database, $user, $password);
+  $FTP             = $library->FTP($host, $user, $password);
+  $ImageEditor     = $library->ImageEditor($filename);
+  $Session         = $library->Session($lifetime, $path, $domain, $secure, $http_only);
+  $StringGenerator = $library->StringGenerator($lenght);
   
 </pre>
 <h2>The EasyBackEndPHP Creator</h2>
