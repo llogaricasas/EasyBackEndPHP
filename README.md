@@ -1,6 +1,6 @@
 # EasyBackEndPHP
 
-<p>Customized Object Oriented PHP library built for Back-End development purposes. SQL Queries, XSLT transformations, FTP Connections and Image Size modifications can be performed using this Library.</p>
+<p>Customized Object Oriented PHP library built for Back-End development purposes. SQL Queries, FTP Connections and Image Size modifications can be performed using this Library.</p>
 
 
 <h2>Documentation</h2>
