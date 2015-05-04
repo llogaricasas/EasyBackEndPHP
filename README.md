@@ -6,9 +6,11 @@
 <h2>Documentation</h2>
 <p>To initialize the plugin call the constructor after requiring the file in your PHP file</p>
 <pre>  
-  require_once 'EasyBackEndPHP.php';
-  $query = new Query();
-  $query->InvokeMethod();
+  require 'EasyBackEndPHP.php';
+  $library = new EasyBackEndPHP();
+  $MySQL = $library->MySQL($host, $database, $user, $password);
+  $FTP = $library->FTP($host, $user, $password);
+  $ImageEditor = $library->ImageEditor($filename);
   
 </pre>
 <h2>The EasyBackEndPHP Creator</h2>
