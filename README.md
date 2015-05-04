@@ -7,7 +7,9 @@
 <p>To initialize the plugin call the constructor after requiring the file in your PHP file</p>
 <pre>  
   require 'EasyBackEndPHP.php';
+  
   $library = new EasyBackEndPHP();
+  
   $MySQL = $library->MySQL($host, $database, $user, $password);
   $FTP = $library->FTP($host, $user, $password);
   $ImageEditor = $library->ImageEditor($filename);
