@@ -12,7 +12,7 @@ class StringGenerator{
 		$this->string = $randomString;
 	}
 	public function getRandomString(){
-    	return $this->string;	
+    		return $this->string;	
 	}
 }
 ?>
