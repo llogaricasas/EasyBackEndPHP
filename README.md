@@ -15,6 +15,7 @@
   $ImageEditor     = $library->ImageEditor($filename);
   $Session         = $library->Session($lifetime, $path, $domain, $secure, $http_only);
   $StringGenerator = $library->StringGenerator($lenght);
+  $Sorting         = $library->Sorting($array);
   
 </pre>
 <h2>The EasyBackEndPHP Creator</h2>
