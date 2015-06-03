@@ -7,7 +7,8 @@ class EasyBackEndPHP{
 		'MySQL' => 'classMySQL.php',
 		'FTP' => 'classFTP.php',
 		'ImageEditor' => 'classImageEditor.php',
-		'StringGenerator' => 'classStringGenerator.php'
+		'StringGenerator' => 'classStringGenerator.php',
+                'Sorting' => 'classSorting.php'
 	);
 	
 	public function __construct(){
