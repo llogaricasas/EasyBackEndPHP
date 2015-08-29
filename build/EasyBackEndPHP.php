@@ -8,7 +8,8 @@ class EasyBackEndPHP{
 		'FTP' => 'classFTP.php',
 		'ImageEditor' => 'classImageEditor.php',
 		'StringGenerator' => 'classStringGenerator.php',
-                'Sorting' => 'classSorting.php'
+                'Sorting' => 'classSorting.php',
+                'CharEncoding' => 'classCharEncoding.php'
 	);
 	
 	public function __construct(){
