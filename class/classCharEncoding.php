@@ -4,7 +4,7 @@ class CharEncoding{
 	private $string = NULL;
 	
 	public function __construct($string){
-	  $this->string = $string;
+		$this->string = $string;
 	}
 	public function encodeString(){
 		$list = get_html_translation_table(HTML_ENTITIES);
@@ -19,7 +19,7 @@ class CharEncoding{
 		$this->string = $string;
 	}
 	public function getEncodedString(){
-    	return $this->string;	
+    		return $this->string;	
 	}
 }
 ?>
