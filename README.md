@@ -16,6 +16,7 @@
   $Session         = $library->Session($lifetime, $path, $domain, $secure, $http_only);
   $StringGenerator = $library->StringGenerator($lenght);
   $Sorting         = $library->Sorting($array);
+  $CharEncoding    = $library->CharEncoding($string);
   
 </pre>
 <h2>The EasyBackEndPHP Creator</h2>
