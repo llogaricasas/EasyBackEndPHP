@@ -2,16 +2,16 @@
 class CharEncoding{
 	
 	private $string = NULL;
+	private $avoidEncode = array('"','<','>','&');
 	
 	public function __construct($string){
 		$this->string = $string;
 	}
 	public function encodeString(){
 		$list = get_html_translation_table(HTML_ENTITIES);
-		unset($list['"']);
-		unset($list['<']);
-		unset($list['>']);
-		unset($list['&']);
+		foreach($this->avoidEncode as $char){
+			unset($list[$char]);
+		}
 		$search = array_keys($list);
 		$values = array_values($list);
 		$search = array_map('utf8_encode', $search);
