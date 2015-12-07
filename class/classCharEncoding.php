@@ -19,7 +19,7 @@ class CharEncoding{
 		$this->string = $string;
 	}
 	public function getEncodedString(){
-    		return $this->string;	
+    	return $this->string;	
 	}
 }
 ?>

@@ -18,7 +18,7 @@ class Session{
 	}			
 	public function StartSession(){
 		session_start();
-		session_set_cookie_params($this->server['LIFETIME'],$this->server['PATH'],$this->server['DOMAIN'],$this->server['SECURE'],$this->server['HTTP_ONLY']);
+		session_set_cookie_params($this->server['LIFETIME'], $this->server['PATH'], $this->server['DOMAIN'], $this->server['SECURE'], $this->server['HTTP_ONLY']);
 	}
 	public function AddToSession($name, $value){
 		$_SESSION[$name] = $value;
