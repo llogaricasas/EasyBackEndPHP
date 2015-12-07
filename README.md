@@ -10,12 +10,12 @@
   
   $library = new EasyBackEndPHP();
   
-  $MySQL           = $library->MySQL($host, $database, $user, $password);
+  $CharEncoding    = $library->CharEncoding($string);
   $FTP             = $library->FTP($host, $user, $password);
   $ImageEditor     = $library->ImageEditor($filename);
+  $MySQL           = $library->MySQL($host, $database, $user, $password);
   $Session         = $library->Session($lifetime, $path, $domain, $secure, $http_only);
   $StringGenerator = $library->StringGenerator($lenght);
-  $CharEncoding    = $library->CharEncoding($string);
   
 </pre>
 <h2>The EasyBackEndPHP Creator</h2>
