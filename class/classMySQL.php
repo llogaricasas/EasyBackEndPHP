@@ -10,9 +10,9 @@ class MySQL{
      
     public function __construct($host, $database, $user, $password){ 
         $this->server['HOST'] = $host; 
-        $this->server['USER'] = $database; 
-        $this->server['PASSWORD'] = $user; 
-        $this->server['DATABASE'] = $password; 
+        $this->server['USER'] = $user; 
+        $this->server['PASSWORD'] = $password; 
+        $this->server['DATABASE'] = $database; 
     } 
     public function AffectedRows($all, $table, $row, $var, $orderby, $flag, $limit = ''){ 
         (($flag<-1)||($flag>1)) ? $flag = 0 : $flag; 
