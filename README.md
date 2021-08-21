@@ -6,7 +6,7 @@
 <h2>Documentation</h2>
 <p>To initialize the plugin call the constructor after requiring the file in your PHP file</p>
 <pre>  
-  require 'EasyBackEndPHP.php';
+require 'EasyBackEndPHP.php';
   
   $library = new EasyBackEndPHP();
   
